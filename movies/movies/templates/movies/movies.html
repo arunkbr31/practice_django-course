@@ -6,9 +6,9 @@
   </head>
   <body>
     <h1>Movies</h1>
-    <ul>
+    <ul >
       {% for movie in movies%}
-      <li>{{movie.title}}</li>
+      <li><a href={{movie.id}}>{{movie.title}}</a></li>
       {%endfor%}
     </ul>
   </body>
